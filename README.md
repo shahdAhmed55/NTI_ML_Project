@@ -11,12 +11,11 @@ This project aims to leverage machine learning techniques to assist in early hea
 - **Models**: 
   - Logistic Regression
   - Random Forest (with Hyperparameter Tuning)
-  - Support Vector Machine (SVM)
   - K-Nearest Neighbors (KNN)
 
 ## 🚀 How to Run
 1. **Open in Colab**: Click the button below to open the notebook directly in Google Colab.
-   https://colab.research.google.com/drive/1elLNvBWcrDdH6N3jHbz3CmP8mQeB5zeD?usp=sharing#scrollTo=hR9DJS16ij51
+   https://colab.research.google.com/drive/1elLNvBWcrDdH6N3jHbz3CmP8mQeB5zeD?usp=sharing
 
 2. **Upload Dataset**: 
    - Download the `heart.csv` file.
@@ -26,8 +25,8 @@ This project aims to leverage machine learning techniques to assist in early hea
 
 ## 📊 Methodology
 - **Data Preprocessing**: Standardized numerical features using `StandardScaler` to optimize model performance.
-- **Data Splitting**: Used `StratifiedShuffleSplit` to ensure proportional representation of patients and healthy individuals in both training and testing sets.
-- **Optimization**: Performed `GridSearchCV` on the Random Forest model to identify the most effective hyperparameters.
+- **Data Splitting**
+- **Optimization**
 - **Evaluation**: Assessed performance using:
   - **Accuracy**: Overall model performance.
   - **Recall**: Critical for medical diagnosis to minimize false negatives.
