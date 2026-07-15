@@ -34,7 +34,10 @@ This project aims to leverage machine learning techniques to assist in early hea
   - **ROC-AUC**: Evaluates the model's ability to distinguish between classes.
 
 ## 📈 Performance Summary
-     Model              Accuracy    Precision          Recall
-Logistic Regression  |  0.836066  |   0.848485    |    0.848485
-Random Forest        |  0.803279  |   0.838710    |    0.787879  
-KNN                  |  0.770492  |   0.787879    |    0.787879        
+### Model Performance Summary
+
+| Model | Accuracy | Precision | Recall |
+| :--- | :--- | :--- | :--- |
+| **Logistic Regression** | 0.836 | 0.848 | 0.848 |
+| **Random Forest** | 0.803 | 0.839 | 0.788 |
+| **KNN** | 0.770 | 0.788 | 0.788 |      
